@@ -1,0 +1,191 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+*{
+  box-sizing: border-box;
+  font-family:"ヒラギノ明朝 ProN";
+  font-weight: 400;
+  font-style: normal;
+}
+/*headerのCSS*/
+.top-wrapper{
+  background-image: url("https://vinaka-design.net/copy/dan/images/main.png");
+  background-size: cover;
+  background-position:center;
+  position: relative;
+  
+}
+header{
+  display: flex;
+  justify-content:space-between ;
+  padding: 30px 0;
+}
+.container{
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.h-logo{
+  width: 140px;
+  top: 10px;
+  left: 0;
+}
+.header-list{
+  text-align: right;
+}
+.header-list a{
+  font-size: 18px;
+  color: black;
+  padding-left: 60px;
+  right: 0;
+}
+.h-message{
+  text-align: center;
+  font-size: 48px;
+  padding: 100px;
+}
+.container p{
+  text-align: center;
+}
+/*main*/
+.info{
+  padding: 90px 0  ;
+  margin:0 68.5px ;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.info-title h2{
+  font-size: 38px;
+  text-align: center;
+}
+.info ul{
+  text-align: center;
+}
+.info-link{
+  color: black;
+}
+.info-items{
+  display: flex;
+  flex-direction: column;
+}
+.info-item{
+  padding:30px 0;
+  border-bottom:1px solid black;
+  max-width:700px;
+  margin: 0 auto;
+}
+.info-day{
+  font-size: 18px;
+}
+.info-label{
+ border: 1px solid black; 
+ margin-left:24px;
+ padding: 6px 8px;
+ font-size: 11px;
+}
+.info-item p{
+  margin:19px 0 0 24px;
+  font-size: 18px;
+  display: inline-block;
+}
+.responsive-list{
+  width: 50px;
+  cursor: pointer;
+  display: none;
+}
+/*施工事例*/
+.example{
+  margin: 0 118.5px;
+  padding: 179px 25px;
+  text-align: center;
+  position: relative;
+}
+.ex-title{
+  margin-bottom: 91px;
+}
+.ex-title h2{
+  font-size: 38px;
+}
+.picture{
+  width: 430px;
+}
+.ex-card{
+  display: flex;
+  justify-content:space-between ;
+  height: auto;
+  
+}
+.ex h3{
+  font-size: 24px;
+  margin-top: 29px;
+}
+.ex p{
+  font-size: 15px;
+  margin-top: 14px;
+}
+.discripution{
+  width: 300px;
+}
+.ex-link{
+  font-size: 20px;
+  border: 1px solid black;
+  margin-top: 30px;
+  padding: 13px 40px;
+  color: black;
+  display: inline-block;
+}
+
+/*会社情報*/
+.cm-info{
+  width: 422.33px;
+}
+.company-wrapper{
+  height: auto;
+  display: flex;
+  justify-content:center
+}
+
+.info-img img:hover{
+  opacity: 0.5;
+}
+/*footer*/
+footer{
+  color: white;
+  background-color: black;
+}
+.f-wrap{
+  display: flex;
+  justify-content:space-between ;
+  margin: 0 83px;
+  padding-top: 30px;
+}
+.f-link img{
+  width: 94px;
+}
+.footer-list a{
+  color: white;
+  margin-right: 60px;
+  font-size: 20px;
+}
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
